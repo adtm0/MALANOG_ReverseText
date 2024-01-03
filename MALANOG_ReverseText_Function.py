@@ -6,13 +6,11 @@ def main():
     # If input is a number:
     if user_input.isdigit() == True:
         print("Error reported! Enter text only.")
-
         # Loop back to main() [prompt for string input again]
         main()
     
     # If input is a string:
     else:
-        
         # Reverse it
         print(f"Output: {reverse(user_input)}")
         
